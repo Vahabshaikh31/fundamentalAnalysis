@@ -1,0 +1,126 @@
+/* General card styles */
+.card {
+  background-color: #000;
+  /*color: var(--card-foreground);
+  *//*padding: 1rem;*/
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.close-button {
+  color: var(--muted-foreground);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Search input styles */
+.search-wrapper {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.5rem;
+  padding-left: 2.5rem;
+  background-color: var(--input);
+  border: 1px solid #707174;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 0 2px var(--primary);
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 0.5rem;
+  color: var(--muted-foreground);
+}
+
+/* Button styles */
+.button-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  background: #707174;
+}
+
+/* Symbol list styles */
+.symbol-list {
+  overflow-y: auto;
+  max-height: 24rem;
+}
+
+.symbol-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid var(--border);
+}
+
+.symbol-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.symbol-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.symbol-icon {
+  border-radius: 50%;
+}
+
+.symbol-name {
+  font-weight: 600;
+}
+
+.symbol-description {
+  color: var(--muted-foreground);
+  font-size: 0.875rem;
+}
+
+.symbol-source {
+  color: var(--muted-foreground);
+  font-size: 0.875rem;
+}
+
+/* Additional input width class */
+.input-1 {
+  width: 10rem;
+}
+  
